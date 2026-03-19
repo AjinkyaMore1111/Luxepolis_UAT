@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-19T23:27:19 IST" name="Default suite" finished-at="2026-03-19T23:27:36 IST" duration-ms="16842">
+  <suite started-at="2026-03-20T00:27:14 IST" name="Luxepolis UAT Suite" finished-at="2026-03-20T00:28:23 IST" duration-ms="68556">
     <groups>
     </groups>
-    <test started-at="2026-03-19T23:27:19 IST" name="Default test" finished-at="2026-03-19T23:27:36 IST" duration-ms="16842">
+    <test started-at="2026-03-20T00:27:14 IST" name="Login Test" finished-at="2026-03-20T00:28:23 IST" duration-ms="68556">
       <class name="Test_Cases.TC_001_Login_Functionality">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@d35dea7]" started-at="2026-03-19T23:27:19 IST" name="OpenBrowser" finished-at="2026-03-19T23:27:22 IST" duration-ms="3217" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:27:14 IST" name="OpenBrowser" finished-at="2026-03-20T00:27:49 IST" duration-ms="35387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="login()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@d35dea7]" started-at="2026-03-19T23:27:22 IST" name="login" finished-at="2026-03-19T23:27:35 IST" duration-ms="13311" status="PASS">
+        <test-method signature="login()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:27:49 IST" name="login" finished-at="2026-03-20T00:28:22 IST" duration-ms="32868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@d35dea7]" started-at="2026-03-19T23:27:35 IST" name="CloseBrowser" finished-at="2026-03-19T23:27:36 IST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:28:22 IST" name="CloseBrowser" finished-at="2026-03-20T00:28:23 IST" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
       </class> <!-- Test_Cases.TC_001_Login_Functionality -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Luxepolis UAT Suite -->
 </testng-results>

@@ -6,6 +6,7 @@
       <class name="Test_Cases.TC_001_Login_Functionality">
         <methods>
           <include name="OpenBrowser"/>
+          <include name="CloseBrowser"/>
           <include name="login"/>
         </methods>
       </class> <!-- Test_Cases.TC_001_Login_Functionality -->

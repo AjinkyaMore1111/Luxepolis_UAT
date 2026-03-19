@@ -14,21 +14,21 @@ public class TC_001_Login_Functionality extends BaseData  {
         System.out.println(" driver is inherited from BaseData ✅");
         LoginPage LP = new LoginPage(driver);
 
-        Thread.sleep(4000);
+        Thread.sleep(7000);
         LP.ClickOnUserIcon();
   
 
         LP.Enter_Mobile_No("9960130048");
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         
         LP.clickonContinue();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         
         LP.Enter_Password(746587);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         LP.clickLogin1();
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
   
 
