@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-20T00:41:07 IST" name="Luxepolis UAT Suite" finished-at="2026-03-20T00:41:24 IST" duration-ms="16922">
+  <suite started-at="2026-03-20T00:58:48 IST" name="Luxepolis UAT Suite" finished-at="2026-03-20T00:59:06 IST" duration-ms="18317">
     <groups>
     </groups>
-    <test started-at="2026-03-20T00:41:07 IST" name="Login Test" finished-at="2026-03-20T00:41:24 IST" duration-ms="16922">
+    <test started-at="2026-03-20T00:58:48 IST" name="Login Test" finished-at="2026-03-20T00:59:06 IST" duration-ms="18317">
       <class name="Test_Cases.TC_001_Login_Functionality">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:41:07 IST" name="OpenBrowser" finished-at="2026-03-20T00:41:10 IST" duration-ms="2883" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:58:48 IST" name="OpenBrowser" finished-at="2026-03-20T00:58:51 IST" duration-ms="3710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="login()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:41:10 IST" name="login" finished-at="2026-03-20T00:41:24 IST" duration-ms="13776" status="PASS">
+        <test-method signature="login()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:58:51 IST" name="login" finished-at="2026-03-20T00:59:06 IST" duration-ms="14274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:41:24 IST" name="CloseBrowser" finished-at="2026-03-20T00:41:24 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T00:59:06 IST" name="CloseBrowser" finished-at="2026-03-20T00:59:06 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
