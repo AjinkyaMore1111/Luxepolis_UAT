@@ -8,7 +8,8 @@
 
     <test name="Login Test">
         <classes>
-            <class name="Test_Cases.TC_001_Login_Functionality"/>
+           <!--<class name="Test_Cases.TC_001_Login_Functionality"/>-->
+            <class name="Test_Cases.TC_001_Add_To_Cart_COD"/>
         </classes>
     </test>
 

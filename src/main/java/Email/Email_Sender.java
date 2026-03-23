@@ -1,21 +1,13 @@
 package Email;
 
 
-import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
+
 
 import Utilities.EmailUtils;
 import Utilities.ExtentReport;
-import jakarta.mail.Authenticator;
-import jakarta.mail.Message;
-import jakarta.mail.PasswordAuthentication;
-import jakarta.mail.Session;
-import jakarta.mail.internet.InternetAddress;
-import jakarta.mail.internet.MimeBodyPart;
-import jakarta.mail.internet.MimeMessage;
-import jakarta.mail.internet.MimeMultipart;
+
 
 
 

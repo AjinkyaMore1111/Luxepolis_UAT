@@ -59,10 +59,11 @@ public class Listener implements ITestListener{
     @Override
     public void onFinish(org.testng.ITestContext context) {
         extent.flush();
-        System.out.println("Report Generated: "
-            + ExtentReport.ReportPath);
+        // ✅ Wait for file to be fully written to disk
+        try { Thread.sleep(2000); } catch (InterruptedException ignored) {}
 
-        // ✅ Send email with pass/fail summary
+        System.out.println("Report Generated: " + ExtentReport.ReportPath);
+
         EmailUtils.sendTestReport(
             ExtentReport.ReportPath,
             passCount,
@@ -70,5 +71,7 @@ public class Listener implements ITestListener{
             skipCount,
             failedTests
         );
+
+       
     }
 }

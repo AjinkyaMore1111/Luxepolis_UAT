@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-20T01:13:14 IST" name="Luxepolis UAT Suite" finished-at="2026-03-20T01:13:33 IST" duration-ms="18662">
+  <suite started-at="2026-03-23T13:58:43 IST" name="Luxepolis UAT Suite" finished-at="2026-03-23T13:59:09 IST" duration-ms="26488">
     <groups>
     </groups>
-    <test started-at="2026-03-20T01:13:14 IST" name="Login Test" finished-at="2026-03-20T01:13:33 IST" duration-ms="18662">
-      <class name="Test_Cases.TC_001_Login_Functionality">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T01:13:14 IST" name="OpenBrowser" finished-at="2026-03-20T01:13:18 IST" duration-ms="4020" status="PASS">
+    <test started-at="2026-03-23T13:58:43 IST" name="Login Test" finished-at="2026-03-23T13:59:09 IST" duration-ms="26488">
+      <class name="Test_Cases.TC_001_Add_To_Cart_COD">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:Test_Cases.TC_001_Add_To_Cart_COD@1ebea008]" started-at="2026-03-23T13:58:39 IST" name="OpenBrowser" finished-at="2026-03-23T13:58:43 IST" duration-ms="3610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="login()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T01:13:18 IST" name="login" finished-at="2026-03-20T01:13:32 IST" duration-ms="14301" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:Test_Cases.TC_001_Add_To_Cart_COD@1ebea008]" started-at="2026-03-23T13:58:43 IST" name="login" finished-at="2026-03-23T13:59:05 IST" duration-ms="22763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:Test_Cases.TC_001_Login_Functionality@1169afe1]" started-at="2026-03-20T01:13:32 IST" name="CloseBrowser" finished-at="2026-03-20T01:13:33 IST" duration-ms="267" status="PASS">
+        <test-method signature="AddTocartToCOD()[pri:1, instance:Test_Cases.TC_001_Add_To_Cart_COD@1ebea008]" started-at="2026-03-23T13:59:05 IST" name="AddTocartToCOD" finished-at="2026-03-23T13:59:09 IST" duration-ms="3584" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- Test_Cases.TC_001_Login_Functionality -->
+        </test-method> <!-- AddTocartToCOD -->
+      </class> <!-- Test_Cases.TC_001_Add_To_Cart_COD -->
     </test> <!-- Login Test -->
   </suite> <!-- Luxepolis UAT Suite -->
 </testng-results>
